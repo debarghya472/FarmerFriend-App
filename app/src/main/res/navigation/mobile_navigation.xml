@@ -24,6 +24,12 @@
         tools:layout="@layout/fragment_tools" />
 
     <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.farmerfriendapp.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
         android:id="@+id/nav_share"
         android:name="com.example.farmerfriendapp.ui.share.ShareFragment"
         android:label="@string/menu_share"
