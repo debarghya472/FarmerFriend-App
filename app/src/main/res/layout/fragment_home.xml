@@ -21,7 +21,9 @@
              android:layout_width="100dp"
              android:layout_height="100dp"
              android:src="@drawable/p1"
-               android:paddingBottom="16dp"/>
+               android:paddingBottom="16dp"
+               android:paddingLeft="16dp"
+               android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -29,6 +31,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -40,7 +43,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/p2"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -48,6 +53,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -59,7 +65,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/p3"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,6 +75,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -78,7 +87,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/p4"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -86,6 +97,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -97,7 +109,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pi"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -105,6 +119,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
 
         </LinearLayout>
@@ -117,7 +132,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pi2"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -125,18 +142,22 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:id="@+id/l8">
+            android:id="@+id/l8"
+            >
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pi3"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -144,6 +165,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -155,7 +177,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pi4"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -163,18 +187,22 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:id="@+id/l10">
+            android:id="@+id/l10"
+            >
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pi5"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -182,6 +210,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -193,7 +222,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pi6"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -201,6 +232,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -212,7 +244,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pi7"
-                android:paddingBottom="16dp"/>
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -220,6 +254,7 @@
                 android:textAllCaps="true"
                 android:textSize="20sp"
                 android:textColor="#004a8d"
+                android:paddingTop="16dp"
                 />
         </LinearLayout>
     </LinearLayout>
