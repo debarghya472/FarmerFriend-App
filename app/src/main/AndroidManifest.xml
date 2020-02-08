@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/farmericon"
+        android:icon="@mipmap/farmerappicon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/farmericon"
+        android:roundIcon="@mipmap/farmerappicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
