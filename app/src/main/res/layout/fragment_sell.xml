@@ -7,57 +7,37 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/text_home"
-            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
-           <ImageView
-             android:layout_width="100dp"
-             android:layout_height="100dp"
-             android:src="@drawable/p1"
-               android:paddingBottom="16dp"
-               android:paddingLeft="16dp"
-               android:paddingRight="16dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p1"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="almonds"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="almonds"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                <TextView
+                <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/p1"
-                    />
-            </LinearLayout>
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Enter Quantity"
-                android:inputType="number"
-                android:id="@+id/quantity1" />
+                    android:hint="Enter Price to set"
+                    android:inputType="number"
+                    android:id="@+id/price1" />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -76,36 +56,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="cabbage"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="cabbage"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p2"/>
-                </LinearLayout>
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Enter Quantity"
-                android:inputType="number"
-                android:id="@+id/quantity2" />
-
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Price to set"
+                    android:inputType="number"
+                    android:id="@+id/price2" />
             </LinearLayout>
         </LinearLayout>
 
@@ -125,36 +90,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="peru"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="peru"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p3"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity3"/>
-
+                    android:id="@+id/price3"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -173,35 +123,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="pumpkin"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="pumpkin"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p4"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity4"/>
+                    android:id="@+id/price4"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -220,42 +156,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="carrot"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="carrot"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p5"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity5"/>
+                    android:id="@+id/price5"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            >
+           >
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -267,36 +189,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="onion"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="onion"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/p6"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity6"/>
-
+                    android:id="@+id/price6"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -315,35 +222,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="pumpkin"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="pumpkin"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p7"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity7"/>
+                    android:id="@+id/price7"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -362,35 +255,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="green peas"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="green peas"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p8"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity8"/>
+                    android:id="@+id/price8"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -409,42 +288,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="capsicum"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="capsicum"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                       android:id="@+id/p9" />
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity9"/>
+                    android:id="@+id/price9"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:id="@+id/l11">
+            >
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -456,35 +321,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="chilly"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="chilly"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p10"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity10"/>
+                    android:id="@+id/price10"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -503,36 +354,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="wheat"
-                android:textAllCaps="true"
-                android:textSize="20sp"
-                android:textColor="#004a8d"
-                android:paddingTop="16dp"
-                />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Rs"
+                    android:text="wheat"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="#004a8d"
+                    android:paddingTop="16dp"
                     />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/p11"/>
-                </LinearLayout>
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Quantity"
+                    android:hint="Enter Price to set"
                     android:inputType="number"
-                    android:id="@+id/quantity11"/>
+                    android:id="@+id/price11"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-  </ScrollView>
+</ScrollView>
