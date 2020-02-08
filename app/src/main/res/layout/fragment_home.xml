@@ -10,7 +10,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/text_home"/>
+            android:id="@+id/text_home"
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,6 +28,7 @@
                 android:text="almonds"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -45,6 +47,7 @@
                 android:text="cabbage"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -63,6 +66,7 @@
                 android:text="peru"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -81,6 +85,7 @@
                 android:text="pumpkin"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -99,6 +104,7 @@
                 android:text="carrot"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
 
         </LinearLayout>
@@ -118,6 +124,7 @@
                 android:text="onion"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -136,6 +143,7 @@
                 android:text="pumpkin"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -154,6 +162,7 @@
                 android:text="green peas"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -172,6 +181,7 @@
                 android:text="capsicum"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -190,6 +200,7 @@
                 android:text="chilly"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
         <LinearLayout
@@ -208,6 +219,7 @@
                 android:text="wheat"
                 android:textAllCaps="true"
                 android:textSize="20sp"
+                android:textColor="#004a8d"
                 />
         </LinearLayout>
     </LinearLayout>
