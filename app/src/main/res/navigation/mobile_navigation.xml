@@ -8,12 +8,12 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.farmerfriendapp.ui.home.HomeFragment"
-        android:label="Home"
+        android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_products"
         android:name="com.example.farmerfriendapp.ui.products.ProductFragment"
-        android:label="Products"
+        android:label="@string/menu_products"
         tools:layout="@layout/fragment_product" />
 
     <fragment
@@ -37,7 +37,7 @@
     <fragment
         android:id="@+id/nav_sell"
         android:name="com.example.farmerfriendapp.ui.seller.SellerFragment"
-        android:label="Seller"
+        android:label="@string/menu_sell"
         tools:layout="@layout/fragment_sell" />
 
     <fragment
