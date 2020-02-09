@@ -11,6 +11,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,18 +33,17 @@ public class LoginFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
 
         rootView=inflater.inflate(R.layout.fragment_login,container,false);
-        Button click=(Button) rootView.findViewById(R.id.login_button);
+        Button click=(Button) rootView.findViewById(R.id.password_button);
         click.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                EditText edit=(EditText)rootView.findViewById(R.id.user_login);
+                String smsNumber = edit.getText().toString();
 
-                EditText user = (EditText) rootView.findViewById(R.id.user_login);
-                String name = user.getText().toString();
-                Intent sendIntent = new Intent(Intent.ACTION_VIEW);
-                sendIntent.setDataAndType(Uri.parse("smsto:"),"vnd.android-dir/mms-sms");
-                sendIntent.putExtra("sms_body", "Your password is");
-                sendIntent.putExtra("address", name);
-                startActivity(sendIntent);
+                Uri uri = Uri.parse("smsto:" + smsNumber);
+                Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
+                intent.putExtra("sms_body", "Your password is:");
+                startActivity(intent);
             }
         });
         return rootView;
