@@ -1,36 +1,68 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/buyer_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-149dp"
+        android:text="Buyer"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/seller_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_login"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="-149dp"
+        android:layout_toRightOf="@+id/buyer_checkbox"
+        android:text="seller"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
     <EditText
         android:id="@+id/user_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:text="Email or Username"
+        android:hint="ENTER PHONE NUMBER"
         android:textSize="18sp"
         android:gravity="center"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/password_button"
+        android:onClick="password_getter"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_login"
+        android:layout_margin="40dp"
+        android:text="@string/password_login"
+        android:background="@color/colorAccent"/>
 
     <EditText
         android:id="@+id/pass_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/user_login"
+        android:layout_below="@id/password_button"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginBottom="3dp"
         android:gravity="center"
-        android:text="Password"
+        android:hint="Enter Password"
         android:textSize="18sp" />
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/pass_login"
+        android:layout_below="@+id/pass_login"
         android:layout_margin="40dp"
         android:text="@string/menu_login"
-        android:background="@color/colorAccent"/>
-
+        android:background="@color/colorAccent"
+        android:id="@+id/login_button"/>
 </RelativeLayout>
