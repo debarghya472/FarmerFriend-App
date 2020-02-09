@@ -1,12 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <WebView
-        android:id="@+id/webview"
+    <EditText
+        android:id="@+id/user_login"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Email or Username"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         />
 
-</LinearLayout>
+    <EditText
+        android:id="@+id/pass_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_login"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center"
+        android:text="Password"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass_login"
+        android:layout_margin="40dp"
+        android:text="@string/menu_login"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>
