@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buy and sell at ease!"
+        android:text="Buy and Sell at ease!"
         android:textSize="30sp"
         android:textAllCaps="true"/>
     <LinearLayout
