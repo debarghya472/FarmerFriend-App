@@ -8,14 +8,3 @@ jobs:
       - checkout
       - run: echo "A first hello"
 
-      - run:
-          name: Add SDK 28
-          command: echo yes | ${ANDROID_HOME}/tools/bin/sdkmanager "platforms;android-28"
-
-      - run:
-          name: spotless check
-          command: ./gradlew spotlessCheck
-
-      - run:
-          name: Run Tests
-          command: ./gradlew build
