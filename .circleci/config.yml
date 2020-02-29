@@ -1,23 +1,21 @@
 
-#
-# Build configuration for Circle CI
-#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/android:api-27-alpha
+    steps:
+      - checkout
+      - run: echo "A first hello"
 
-general:
-  artifacts:
-    - /home/ubuntu/FarmerFriendApp/app/build/outputs/apk/
+      - run:
+          name: Add SDK 28
+          command: echo yes | ${ANDROID_HOME}/tools/bin/sdkmanager "platforms;android-28"
 
-machine:
-  environment:
-    ANDROID_HOME: /usr/local/android-sdk-linux
+      - run:
+          name: spotless check
+          command: ./gradlew spotlessCheck
 
-dependencies:
-  override:
-    - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-3.5.3,android-21,extra-google-m2repository,extra-google-google_play_services,extra-android-support
-    - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
-
-test:
-  override:
-    - (./gradlew assemble):
-        timeout: 360
-
+      - run:
+          name: Run Tests
+          command: ./gradlew build
