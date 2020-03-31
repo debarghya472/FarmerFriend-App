@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "868164648544",
+    "firebase_url": "https://farmerfriend-app.firebaseio.com",
+    "project_id": "farmerfriend-app",
+    "storage_bucket": "farmerfriend-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868164648544:android:8e182dc300dde2dac18d05",
+        "android_client_info": {
+          "package_name": "com.example.farmerfriendapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868164648544-b80daog0pencrrj1n4c1ckicuoft33p2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmerfriendapp",
+            "certificate_hash": "bb6cb5239a6165277cf4243e4d2cd4555146878a"
+          }
+        },
+        {
+          "client_id": "868164648544-af1u7091iecnti7gce2l74sq1h6b9ftj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAYtrmLs-Pz4TiR8e_KF8lawGx0oN5Po4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868164648544-af1u7091iecnti7gce2l74sq1h6b9ftj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
